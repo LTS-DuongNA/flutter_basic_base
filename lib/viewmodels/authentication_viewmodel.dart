@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import '../repositories/auth/auth_repository.dart';
 import '../repositories/auth/auth_repository_impl.dart';
 
-class AuthenticationViewModel with ChangeNotifier {
+class SplashViewModel with ChangeNotifier {
 
   final AuthRepository _authRepository = AuthRepositoryImpl();
 

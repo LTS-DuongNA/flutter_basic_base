@@ -23,29 +23,16 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "base": MessageLookupByLibrary.simpleMessage("BASE"),
-        "current_password_empty_error":
-            MessageLookupByLibrary.simpleMessage("Error"),
-        "email_empty_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "email_invalid_error": MessageLookupByLibrary.simpleMessage("Error"),
         "error": MessageLookupByLibrary.simpleMessage("Error"),
         "error_no_data":
             MessageLookupByLibrary.simpleMessage("NO DATA RECEIVED"),
-        "mobile_empty_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "name_empty_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "new_password_empty_error":
-            MessageLookupByLibrary.simpleMessage("Error"),
-        "not_login_error": MessageLookupByLibrary.simpleMessage("Error"),
+        "exit_app_message":
+            MessageLookupByLibrary.simpleMessage("Do you really want to exit?"),
+        "no": MessageLookupByLibrary.simpleMessage("No"),
+        "notification": MessageLookupByLibrary.simpleMessage("Notification"),
         "ok": MessageLookupByLibrary.simpleMessage("OK"),
-        "password_empty_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "password_not_match_error":
-            MessageLookupByLibrary.simpleMessage("Error"),
-        "password_short_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "repeat_password_empty_error":
-            MessageLookupByLibrary.simpleMessage("Error"),
         "test_api": MessageLookupByLibrary.simpleMessage("Test API call"),
-        "un_authorized_error": MessageLookupByLibrary.simpleMessage("Error"),
-        "user_not_approved_error":
-            MessageLookupByLibrary.simpleMessage("Error"),
-        "user_not_existed_error": MessageLookupByLibrary.simpleMessage("Error")
+        "warning": MessageLookupByLibrary.simpleMessage("Warning"),
+        "yes": MessageLookupByLibrary.simpleMessage("Yes")
       };
 }

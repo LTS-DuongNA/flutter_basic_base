@@ -70,11 +70,41 @@ class S {
     );
   }
 
-  /// `NO DATA RECEIVED`
-  String get error_no_data {
+  /// `Notification`
+  String get notification {
     return Intl.message(
-      'NO DATA RECEIVED',
-      name: 'error_no_data',
+      'Notification',
+      name: 'notification',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `OK`
+  String get ok {
+    return Intl.message(
+      'OK',
+      name: 'ok',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Yes`
+  String get yes {
+    return Intl.message(
+      'Yes',
+      name: 'yes',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No`
+  String get no {
+    return Intl.message(
+      'No',
+      name: 'no',
       desc: '',
       args: [],
     );
@@ -90,151 +120,31 @@ class S {
     );
   }
 
-  /// `Error`
-  String get name_empty_error {
+  /// `NO DATA RECEIVED`
+  String get error_no_data {
     return Intl.message(
-      'Error',
-      name: 'name_empty_error',
+      'NO DATA RECEIVED',
+      name: 'error_no_data',
       desc: '',
       args: [],
     );
   }
 
-  /// `Error`
-  String get mobile_empty_error {
+  /// `Warning`
+  String get warning {
     return Intl.message(
-      'Error',
-      name: 'mobile_empty_error',
+      'Warning',
+      name: 'warning',
       desc: '',
       args: [],
     );
   }
 
-  /// `Error`
-  String get email_empty_error {
+  /// `Do you really want to exit?`
+  String get exit_app_message {
     return Intl.message(
-      'Error',
-      name: 'email_empty_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get email_invalid_error {
-    return Intl.message(
-      'Error',
-      name: 'email_invalid_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get password_empty_error {
-    return Intl.message(
-      'Error',
-      name: 'password_empty_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get password_short_error {
-    return Intl.message(
-      'Error',
-      name: 'password_short_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get user_not_approved_error {
-    return Intl.message(
-      'Error',
-      name: 'user_not_approved_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get user_not_existed_error {
-    return Intl.message(
-      'Error',
-      name: 'user_not_existed_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get un_authorized_error {
-    return Intl.message(
-      'Error',
-      name: 'un_authorized_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get current_password_empty_error {
-    return Intl.message(
-      'Error',
-      name: 'current_password_empty_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get new_password_empty_error {
-    return Intl.message(
-      'Error',
-      name: 'new_password_empty_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get repeat_password_empty_error {
-    return Intl.message(
-      'Error',
-      name: 'repeat_password_empty_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get password_not_match_error {
-    return Intl.message(
-      'Error',
-      name: 'password_not_match_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Error`
-  String get not_login_error {
-    return Intl.message(
-      'Error',
-      name: 'not_login_error',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `OK`
-  String get ok {
-    return Intl.message(
-      'OK',
-      name: 'ok',
+      'Do you really want to exit?',
+      name: 'exit_app_message',
       desc: '',
       args: [],
     );

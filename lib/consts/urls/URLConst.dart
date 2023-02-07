@@ -1,3 +1,5 @@
 class URLConsts {
-  static const login = "login";
+  // view route
+  static const splash = "splash";
+  static const home = "home";
 }

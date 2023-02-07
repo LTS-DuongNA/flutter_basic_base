@@ -6,10 +6,6 @@ import '../strings/str_const.dart';
 
 class ColorStyle {
   static const primary = Color(0xfff68c1f);
-  static const secondary = Color(0xffED1F7D);
-  static const secondary25 = Color(0x40ED1F7D);
-  static const secondary80 = Color(0xcced1f7d);
-  static const tertiary = Color(0xfff3cf1b);
 
   // NEW COLOR FOR DARK MODE
   static Color getSecondaryBackground() {
