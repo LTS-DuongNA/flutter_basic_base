@@ -7,6 +7,8 @@ abstract class BaseViewModel extends ChangeNotifier {
   bool _isDisposed = false;
   bool _isInitializeDone = false;
 
+  bool? changeForCheck = null;
+
   FutureOr<void> _initState;
 
   BaseViewModel() {
